@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.centrar-t{
+    text-align: center !important;
+}
+
+.black-t{
+    color: #000 !important;
+}
+
+h1{
+    color: #262626;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 21%;
+    text-align: center;
+}
+
+.ph1{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #262626;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    margin: 1% 0 21%;
+}
+
+.contenedor-skills{
+    background: #0d2d41;
+
+}
+
+.skills{
+    color: #F5F5F5;
+    font-family: Rajdhani;
+    font-size: 44px;
+    font-style: normal;
+    line-height: normal;
+    padding: 10% 0 15%;
+    text-align: center;
+}
+
+.contenedor-habilidades{
+    border-radius: 40px;
+    background: #F5F5F5;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: -13% auto 15%;
+}
+
+.sección-diseño,
+.sección-desarrollo,
+.sección-yo
+{
+    padding: 5% 15%;
+}
+
+.sección-desarrollo{
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+}
+
+.sección-yo{
+    display: grid;
+}
+
+.habilidad-titulo{
+    color: #111;
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: center;
+    margin: 25% 0;
+}
+
+.habilidad-descripcion{
+    color: #000;
+    text-align: justify;
+    font-family: Rajdhani;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+    margin: 5% 0 10%;
+    min-height: 80px;
+}
+
+.habilidad-subtitulo{
+    color: #379765;
+    text-align: justify;
+    font-family: Rajdhani;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.btnCertificados{
+    border-radius: 0.5em;
+    background: #379765;
+    padding: 4% 0%;
+    color: #fff;
+    text-decoration: none;
+    font-family: Rajdhani;
+    font-size: 18px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.btnCertificados:hover{
+    background: #288053;
+}
+
+.contenedor-proyectos{
+    margin-bottom: 10%;
+}
+
+.proyectos-p{
+    color: #111;
+    font-family: Rajdhani;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.proyectos-desarrollados{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.proyecto{
+    border-radius: 1em;
+    border: 0px solid #2D2B2B;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.imgproyecto{
+    width: 100%;
+}
+
+.nombre-proyecto{
+    color: #000;
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 70%;
+    margin: auto;
+    min-height: 60px;
+    text-decoration: none;
+}
+
+.contenedor-misgustos{
+    background: linear-gradient(180deg, #3BB4FD 0%, rgba(154, 215, 252, 0.54) 80.73%, rgba(177, 224, 253, 0.00) 100%);
+}
+
+.mis-gustos{
+    font-family: Rajdhani;
+    font-size: 44px;
+    font-style: normal;
+    line-height: normal;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.gustos{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.imggustos{
+    border-radius: 50%;
+    width: 214px;
+    height: 214px;
+    margin: 0 20%;
+}
+
+.gustos-titulo{
+    color: #000;
+    font-family: Rajdhani;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10% 0 5%;
+}
+
+.gustos-descripcion{
+    color: #000;
+    text-align: justify;
+    font-family: Rajdhani;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 50%;
+}
+
+.correo{
+    font-size: 40px;
+    text-align: center;
+    margin: 3% 0;
+    color: #004771 !important;
+    font-family: Rajdhani;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.correo:hover{
+    color: #004771 !important;
+}
+
+img{
+    width: 300px;
+}
