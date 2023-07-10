@@ -260,16 +260,60 @@ img{
 }
 
 @media screen and (max-width:500px) {
+    h1{
+        font-size: 35px;
+        text-align: center;
+        width: 75%;
+        margin: 21% auto 3%;
+    }
+
+    .skills{
+        font-size: 35px;
+        padding: 20% 0 30%;
+    }
+
     .contenedor-habilidades{
         grid-template-columns: auto;
+    }
+
+    .habilidad-titulo{
+        margin: 20% 0;
+    }
+    
+    .habilidad-descripcion{
+        min-height: 40px;
+        margin-bottom: 5%;
+    }
+
+    .proyectos-p{
+        width: 80%;
+        margin: 20% auto 10%;
     }
 
     .proyectos-desarrollados{
         grid-template-columns: auto;
     }
 
+    .proyecto{
+        margin: 2% 0 10%;
+    }
+
+    .mis-gustos{
+        font-size: 32px;
+        padding: 15% 0 10%;
+    }
+
     .gustos{
         grid-template-columns: auto;
+    }
+
+    .gustos-titulo{
+        font-size: 22px;
+    }
+
+    .gustos-descripcion{
+        font-size: 18px;
+        margin-bottom: 25%;
     }
     
     .correo{
