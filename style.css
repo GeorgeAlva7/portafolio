@@ -251,6 +251,29 @@ h1{
     color: #004771 !important;
 }
 
+h3.correo{
+    text-decoration: none;
+}
+
 img{
     width: 300px;
+}
+
+@media screen and (max-width:500px) {
+    .contenedor-habilidades{
+        grid-template-columns: auto;
+    }
+
+    .proyectos-desarrollados{
+        grid-template-columns: auto;
+    }
+
+    .gustos{
+        grid-template-columns: auto;
+    }
+    
+    .correo{
+        font-size: 25px;
+        color: #004771;
+    }
 }
